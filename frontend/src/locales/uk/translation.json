@@ -1,0 +1,125 @@
+{
+  "dashboard": {
+    "title": "ParkSystem",
+    "subtitle": "Центр управління паркуванням в аеропорту",
+    "logout": "Вийти",
+    "settings": "Налаштування"
+  },
+  "timers": {
+    "nextPickup": "Наступний трансфер",
+    "lastPickup": "Останній трансфер",
+    "noUpcomingPickups": "Немає майбутніх трансферів",
+    "noCompletedPickups": "Немає виконаних трансферів",
+    "scheduled": "Заплановано",
+    "completedAt": "Виконано о"
+  },
+  "stats": {
+    "activeCars": "Активні авто",
+    "todayPickups": "Трансфери сьогодні",
+    "todayPassengers": "Пасажири сьогодні"
+  },
+  "tabs": {
+    "today": "Сьогоднішні трансфери",
+    "active": "Активні",
+    "completed": "Завершені",
+    "allReservations": "Всі бронювання"
+  },
+  "actions": {
+    "add": "Додати нове",
+    "searchPlaceholder": "Пошук за номерним знаком або ім'ям...",
+    "loadMore": "Завантажити ще",
+    "edit": "Редагувати",
+    "delete": "Видалити",
+    "complete": "Позначити як завершене",
+    "reactivate": "Позначити як активне",
+    "call": "Подзвонити",
+    "flightStatus": "Статус рейсу"
+  },
+  "list": {
+    "passengers": "Кількість осіб",
+    "phone": "Телефон",
+    "noReservations": "Немає бронювань для відображення.",
+    "return": "Повернення",
+    "flight": "Рейс",
+    "price": "Ціна",
+    "groupPickup": "Груповий трансфер: Рейс {{flightNumber}} ({{count}} бронювання)",
+    "loading": "Завантаження бронювань...",
+    "error": "Помилка завантаження даних",
+    "addFirst": "Додайте перше бронювання!",
+    "completed": "Завершено",
+    "markComplete": "Позначити як завершене",
+    "totalReservations": "Загальна кількість бронювань"
+  },
+  "form": {
+    "addTitle": "Додати нове бронювання",
+    "editTitle": "Редагувати бронювання",
+    "licensePlate": "Номерний знак",
+    "customerName": "Ім'я клієнта",
+    "phoneNumber": "Номер телефону",
+    "flightNumber": "Номер рейсу (необов'язково)",
+    "passengerCount": "Кількість осіб",
+    "returnDate": "Дата і час повернення",
+    "estimatedPrice": "Орієнтовна ціна",
+    "save": "Зберегти бронювання",
+    "saveChanges": "Зберегти зміни",
+    "cancel": "Скасувати",
+    "selectDate": "Виберіть дату та час"
+  },
+  "modals": {
+    "deleteConfirmTitle": "Підтвердити видалення",
+    "deleteConfirmMessage": "Ви впевнені, що хочете видалити це бронювання? Цю дію неможливо скасувати.",
+    "completeConfirmTitle": "Підтвердити зміну статусу",
+    "completeConfirmMessage": "Ви впевнені, що хочете позначити наступне бронювання як {{status}}?",
+    "statusActive": "активне",
+    "statusCompleted": "завершене",
+    "flightStatusTitle": "Статус рейсу",
+    "flightStatus": "Статус",
+    "delay": "Затримка",
+    "minutes": "хвилин",
+    "scheduledTime": "За розкладом",
+    "actualTime": "Фактичний/Очікуваний час",
+    "terminal": "Термінал",
+    "trackOnFlightradar": "Відстежити на Flightradar24",
+    "noData": "Немає даних"
+  },
+  "login": {
+    "title": "Увійдіть до ParkSystem",
+    "username": "Ім'я користувача",
+    "password": "Пароль",
+    "loginButton": "Увійти",
+    "error": "Неправильне ім'я користувача або пароль."
+  },
+  "planSelect": {
+    "title": "Виберіть свій план",
+    "subtitle": "Щоб почати, виберіть пакет, який найкраще відповідає розміру вашої парковки. Ви можете змінити його в будь-який час.",
+    "smallPlan": "МАЛА ПАРКОВКА",
+    "mediumPlan": "СЕРЕДНЯ ПАРКОВКА",
+    "largePlan": "ВЕЛИКА ПАРКОВКА",
+    "limitPrefix": "до",
+    "limitSuffix": "активних бронювань",
+    "mostPopular": "Найпопулярніший",
+    "description": "Ідеально підходить для парковок з {{size}} трафіком.",
+    "sizeSmall": "малим",
+    "sizeMedium": "середнім",
+    "sizeLarge": "великим",
+    "selectPlan": "Вибрати план"
+  },
+  "settings": {
+    "title": "Налаштування",
+    "back": "Повернутися до панелі",
+    "pricingTitle": "Прайс-лист паркування",
+    "day": "{{count}} День",
+    "days": "{{count}} Дні",
+    "extraDay": "Кожен наступний день",
+    "save": "Зберегти зміни"
+  },
+  "toasts": {
+    "profileError": "Не вдалося завантажити профіль користувача",
+    "planSelectSuccess": "План вибрано!",
+    "planSelectError": "Не вдалося вибрати план.",
+    "settingsLoadError": "Не вдалося завантажити налаштування цін.",
+    "settingsSaveLoading": "Збереження прайс-листа...",
+    "settingsSaveSuccess": "Прайс-лист оновлено!",
+    "settingsSaveError": "Не вдалося зберегти прайс-лист."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "dashboard": {
+    "title": "ParkSystem",
+    "subtitle": "Centrum zarządzania parkingiem",
+    "logout": "Wyloguj",
+    "settings": "Ustawienia"
+  },
+  "timers": {
+    "nextPickup": "Najbliższy odbiór",
+    "lastPickup": "Ostatni odbiór",
+    "noUpcomingPickups": "Brak nadchodzących odbiorów",
+    "noCompletedPickups": "Brak zrealizowanych odbiorów",
+    "scheduled": "Planowo",
+    "completedAt": "Odbył się"
+  },
+  "stats": {
+    "activeCars": "Aktywnych aut",
+    "todayPickups": "Odbiory dzisiaj",
+    "todayPassengers": "Pasażerów dzisiaj"
+  },
+  "tabs": {
+    "today": "Dzisiejsze odbiory",
+    "active": "Aktywne",
+    "completed": "Zakończone",
+    "allReservations": "Wszystkie rezerwacje"
+  },
+  "actions": {
+    "add": "Dodaj nową",
+    "searchPlaceholder": "Szukaj po nr rejestracyjnym lub nazwisku...",
+    "loadMore": "Załaduj więcej",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "complete": "Oznacz jako zakończoną",
+    "reactivate": "Oznacz jako aktywną",
+    "call": "Zadzwoń",
+    "flightStatus": "Status lotu"
+  },
+   "list": {
+    "passengers": "Liczba osób",
+    "phone": "Telefon",
+    "noReservations": "Brak rezerwacji do wyświetlenia.",
+    "return": "Powrót",
+    "flight": "Lot",
+    "price": "Cena",
+    "groupPickup": "Wspólny odbiór: Lot {{flightNumber}} ({{count}} rezerwacje)",
+    "loading": "Ładowanie rezerwacji...",
+    "error": "Błąd ładowania danych",
+    "addFirst": "Dodaj pierwszą rezerwację!",
+    "completed": "Zakończone",
+    "markComplete": "Oznacz jako zakończone",
+    "totalReservations": "Łączna liczba rezerwacji"
+  },
+  "form": {
+    "addTitle": "Dodaj nową rezerwację",
+    "editTitle": "Edytuj rezerwację",
+    "licensePlate": "Numer rejestracyjny",
+    "customerName": "Imię i nazwisko klienta",
+    "phoneNumber": "Numer telefonu",
+    "flightNumber": "Numer lotu (opcjonalnie)",
+    "passengerCount": "Liczba osób",
+    "returnDate": "Data i godzina powrotu",
+    "estimatedPrice": "Szacowana cena",
+    "save": "Zapisz rezerwację",
+    "saveChanges": "Zapisz zmiany",
+    "cancel": "Anuluj",
+    "selectDate": "Wybierz datę i godzinę"
+  },
+  "modals": {
+    "deleteConfirmTitle": "Potwierdź usunięcie",
+    "deleteConfirmMessage": "Czy na pewno chcesz usunąć tę rezerwację? Tej operacji nie można cofnąć.",
+    "completeConfirmTitle": "Potwierdź zmianę statusu",
+    "completeConfirmMessage": "Czy na pewno chcesz oznaczyć poniższą rezerwację jako {{status}}?",
+    "statusActive": "aktywną",
+    "statusCompleted": "zakończoną",
+    "flightStatusTitle": "Status lotu",
+    "flightStatus": "Status",
+    "delay": "Opóźnienie",
+    "minutes": "minut",
+    "scheduledTime": "Planowo",
+    "actualTime": "Rzeczywisty/Przewidywany czas",
+    "terminal": "Terminal",
+    "trackOnFlightradar": "Śledź na Flightradar24",
+    "noData": "Brak danych"
+  },
+  "login": {
+    "title": "Zaloguj się do ParkSystem",
+    "username": "Nazwa użytkownika",
+    "password": "Hasło",
+    "loginButton": "Zaloguj",
+    "error": "Nieprawidłowa nazwa użytkownika lub hasło."
+  },
+  "planSelect": {
+    "title": "Wybierz swój plan",
+    "subtitle": "Aby rozpocząć, wybierz pakiet, który najlepiej pasuje do wielkości Twojego parkingu. W każdej chwili możesz go zmienić.",
+    "smallPlan": "MAŁY PARKING",
+    "mediumPlan": "ŚREDNI PARKING",
+    "largePlan": "DUŻY PARKING",
+    "limitPrefix": "do",
+    "limitSuffix": "aktywnych rezerwacji",
+    "mostPopular": "Najpopularniejszy",
+    "description": "Idealny dla parkingów o {{size}} natężeniu ruchu.",
+    "sizeSmall": "małym",
+    "sizeMedium": "średnim",
+    "sizeLarge": "dużym",
+    "selectPlan": "Wybierz plan"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "back": "Wróć do panelu",
+    "pricingTitle": "Cennik parkingu",
+    "day": "{{count}} Dzień",
+    "days": "{{count}} Dni",
+    "extraDay": "Każdy kolejny dzień",
+    "save": "Zapisz zmiany"
+  },
+  "toasts": {
+    "profileError": "Nie udało się pobrać profilu użytkownika",
+    "planSelectSuccess": "Plan został wybrany!",
+    "planSelectError": "Nie udało się wybrać planu.",
+    "settingsLoadError": "Nie udało się załadować ustawień cennika.",
+    "settingsSaveLoading": "Zapisywanie cennika...",
+    "settingsSaveSuccess": "Cennik zaktualizowany!",
+    "settingsSaveError": "Nie udało się zapisać cennika."
+  }
+}

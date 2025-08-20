@@ -1,0 +1,125 @@
+{
+  "dashboard": {
+    "title": "ParkSystem",
+    "subtitle": "Airport Parking Management Center",
+    "logout": "Logout",
+    "settings": "Settings"
+  },
+  "timers": {
+    "nextPickup": "Next Pickup",
+    "lastPickup": "Last Pickup",
+    "noUpcomingPickups": "No upcoming pickups",
+    "noCompletedPickups": "No completed pickups",
+    "scheduled": "Scheduled",
+    "completedAt": "Completed at"
+  },
+  "stats": {
+    "activeCars": "Active Cars",
+    "todayPickups": "Today's Pickups",
+    "todayPassengers": "Today's Passengers"
+  },
+  "tabs": {
+    "today": "Today's Pickups",
+    "active": "Active",
+    "completed": "Completed",
+    "allReservations": "All Reservations"
+  },
+  "actions": {
+    "add": "Add New",
+    "searchPlaceholder": "Search by license plate or name...",
+    "loadMore": "Load More",
+    "edit": "Edit",
+    "delete": "Delete",
+    "complete": "Mark as completed",
+    "reactivate": "Mark as active",
+    "call": "Call",
+    "flightStatus": "Flight Status"
+  },
+  "list": {
+    "passengers": "Passengers",
+    "phone": "Phone",
+    "noReservations": "No reservations to display.",
+    "return": "Return",
+    "flight": "Flight",
+    "price": "Price",
+    "groupPickup": "Group Pickup: Flight {{flightNumber}} ({{count}} reservations)",
+    "loading": "Loading reservations...",
+    "error": "Error loading data",
+    "addFirst": "Add your first reservation!",
+    "completed": "Completed",
+    "markComplete": "Mark as completed",
+    "totalReservations": "Total reservations"
+  },
+  "form": {
+    "addTitle": "Add New Reservation",
+    "editTitle": "Edit Reservation",
+    "licensePlate": "License Plate",
+    "customerName": "Customer Name",
+    "phoneNumber": "Phone Number",
+    "flightNumber": "Flight Number (optional)",
+    "passengerCount": "Number of People",
+    "returnDate": "Return Date and Time",
+    "estimatedPrice": "Estimated Price",
+    "save": "Save Reservation",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "selectDate": "Select date and time"
+  },
+  "modals": {
+    "deleteConfirmTitle": "Confirm Deletion",
+    "deleteConfirmMessage": "Are you sure you want to delete this reservation? This action cannot be undone.",
+    "completeConfirmTitle": "Confirm Status Change",
+    "completeConfirmMessage": "Are you sure you want to mark the following reservation as {{status}}?",
+    "statusActive": "active",
+    "statusCompleted": "completed",
+    "flightStatusTitle": "Flight Status",
+    "flightStatus": "Status",
+    "delay": "Delay",
+    "minutes": "minutes",
+    "scheduledTime": "Scheduled",
+    "actualTime": "Actual/Estimated Time",
+    "terminal": "Terminal",
+    "trackOnFlightradar": "Track on Flightradar24",
+    "noData": "No data"
+  },
+  "login": {
+    "title": "Login to ParkSystem",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login",
+    "error": "Invalid username or password."
+  },
+  "planSelect": {
+    "title": "Choose Your Plan",
+    "subtitle": "To get started, please select the plan that best fits your parking lot's size. You can change it at any time.",
+    "smallPlan": "SMALL PARKING",
+    "mediumPlan": "MEDIUM PARKING",
+    "largePlan": "LARGE PARKING",
+    "limitPrefix": "up to",
+    "limitSuffix": "active reservations",
+    "mostPopular": "Most Popular",
+    "description": "Ideal for parking lots with {{size}} traffic.",
+    "sizeSmall": "small",
+    "sizeMedium": "medium",
+    "sizeLarge": "large",
+    "selectPlan": "Select Plan"
+  },
+  "settings": {
+    "title": "Settings",
+    "back": "Back to Dashboard",
+    "pricingTitle": "Parking Price List",
+    "day": "{{count}} Day",
+    "days": "{{count}} Days",
+    "extraDay": "Each additional day",
+    "save": "Save Changes"
+  },
+  "toasts": {
+    "profileError": "Failed to fetch user profile",
+    "planSelectSuccess": "Plan has been selected!",
+    "planSelectError": "Failed to select plan.",
+    "settingsLoadError": "Failed to load pricing settings.",
+    "settingsSaveLoading": "Saving price list...",
+    "settingsSaveSuccess": "Price list updated!",
+    "settingsSaveError": "Failed to save price list."
+  }
+}

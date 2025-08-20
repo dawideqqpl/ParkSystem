@@ -1,16 +1,16 @@
 # Plik: parksystem_backend/urls.py
 from django.contrib import admin
 from django.urls import path, include
-# Importujemy widoki z biblioteki JWT
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
-)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # Dołączamy wszystkie adresy z naszej aplikacji API
     path('api/', include('api.urls')),
-    # Nowe ścieżki do logowania i odświeżania tokenu
-    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    
+    # --- POPRAWIONE ŚCIEŻKI DO REJESTRACJI I LOGOWANIA ---
+    path('api/auth/', include('dj_rest_auth.urls')),
+    path('api/auth/registration/', include('dj_rest_auth.registration.urls')),
+    
+    # Dodajemy standardowe allauth URLs (potrzebne do działania social auth)
+    path('accounts/', include('allauth.urls')),
 ]
