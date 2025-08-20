@@ -1,0 +1,51 @@
+# .gitignore
+# =========================
+# Sekrety i pliki tymczasowe
+.env
+*.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.coveragerc
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.gitignore
+.hypothesis/
+
+# Django
+*.sqlite3
+*.sqlite
+.DS_Store
+media/
+staticfiles/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env.bak/
+
+# OS
+Thumbs.db
