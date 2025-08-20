@@ -16,7 +16,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import './i18n';
 
 // --- WAŻNE: Upewnij się, że wkleiłeś tutaj swój Client ID ---
-const GOOGLE_CLIENT_ID = "414021971459-hra2pdov2afb84nir47l2plhar0popf6.apps.googleusercontent.com";
+const GOOGLE_CLIENT_ID = os.environ.get('GOOGLE_OAUTH2_CLIENT_ID');
 
 function PrivateRoute({ children }) {
   const { authTokens, userProfile, isLoading } = useAuth();
